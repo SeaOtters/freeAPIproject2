@@ -1,0 +1,49 @@
+
+#h1{
+    font-size: 30px;
+    font-family: "GORGE  ASH" ;
+    color: white;
+
+}
+
+#h2{
+    font-size: 20px;
+    font-family: "GORGE  ASH";
+    color:white;
+
+}
+
+
+#search{
+    font-size: 20px;
+    font-family: "GORGE  ASH";
+    color:white;
+}
+
+.output{
+    font-size: 20px;
+    font-family: "GORGE  ASH";
+    color:white;
+
+}
+
+#questions{
+    font-size:20px;
+    fontfamily: "GORGE  ASH";
+    color:white;
+}
+
+table, th, td {
+    border: 2px solid ghostwhite;
+}
+
+
+
+
+body{
+    background-image: url('bb-8.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}

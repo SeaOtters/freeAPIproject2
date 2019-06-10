@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OwO</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css"/>
+
+</head>
+<body>
+<h1 id="h1">Star Wars Planets API!</h1>
+<h2 id="h2">discover the star wars universe!(search like "planets", planets/?page=2, planets/?page=3, etc.)"</h2>
+<label id="search" for="selectArtist" class="less-emphasis">Search: </label>
+<input type="text" id="selectArtist">
+<select id="resultCount" class="selects">
+    <option value="1">Shows 1 result</option>
+    <option value="2">Shows 2 results</option>
+    <option value="3">Shows 3 results</option>
+    <option value="4">Shows 4 results</option>
+    <option value="5">Shows 5 results</option>
+    <option value="6">Shows 6 results</option>
+    <option value="7">Shows 7 results</option>
+    <option value="8">Shows 8 results</option>
+    <option value="9">Shows 9 results</option>
+    <option value="10">Shows 10 results</option>
+</select>
+<button class="btn btn-info" id="showResults">Show Results</button>
+<button class="btn btn-info" id="clear" >Clear</button>
+<div id="res"></div>
+<table style="width:100%" id = 'questions'>
+    <tr>
+        <th>Name</th>
+        <th>Climate</th>
+        <th>Diameter</th>
+        <th>Gravity</th>
+        <th>Population</th>
+        <th>Terrain</th>
+        <th>Surface Water</th>
+        <th>Rotational Period</th>
+    </tr>
+
+
+</table>
+</body>
+</html>
